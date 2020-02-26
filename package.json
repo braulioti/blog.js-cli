@@ -1,7 +1,9 @@
 {
-  "name": "blogjs",
-  "bin": "./index.js",
-  "version": "1.0.0",
+  "name": "@braulio_fp/blogjs",
+  "bin": {
+    "blogjs": "./commands/index.js"
+  },
+  "version": "0.1.0",
   "description": "A Blog.JS CLI project",
   "main": "index.js",
   "scripts": {
@@ -17,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/braulioti/blog.js-cli/issues"
   },
-  "homepage": "https://github.com/braulioti/blog.js-cli#readme"
+  "homepage": "https://github.com/braulioti/blog.js-cli#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "figlet": "^1.3.0",
+    "inquirer": "^7.0.4",
+    "minimist": "^1.2.0"
+  }
 }

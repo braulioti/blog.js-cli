@@ -17,9 +17,17 @@ Stay up to date with the latest release and announcements on Twitter:
   - PostgreSQL Database
   - NPM
   
+## Instalation
+  
+  - npm install -g @braulio_fp/blogjs
+  
 ## Quickstart
 
   - Configure your application in dist/config.ts
+  
+## For Developers
+
+  - npm link
 
 ## Versioning
 
