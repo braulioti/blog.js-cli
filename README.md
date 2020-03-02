@@ -23,7 +23,7 @@ Stay up to date with the latest release and announcements on Twitter:
   
 ## Quickstart
 
-  - Configure your application in dist/config.ts
+  - Create a new project `blogjs init <project_name>`
   
 ## For Developers
 
