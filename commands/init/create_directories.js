@@ -12,9 +12,9 @@ module.exports = function(sourceFolder) {
         fs.mkdirSync(`${sourceFolder}/src/views/admin`);
         fs.mkdirSync(`${sourceFolder}/src/views/web`);
         fs.mkdirSync(`${sourceFolder}/src/views/web/default`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/assets`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/assets/css`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/assets/js`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/assets/img`);
+        fs.mkdirSync(`${sourceFolder}/src/views/web/default/assets`);
+        fs.mkdirSync(`${sourceFolder}/src/views/web/default/assets/css`);
+        fs.mkdirSync(`${sourceFolder}/src/views/web/default/assets/js`);
+        fs.mkdirSync(`${sourceFolder}/src/views/web/default/assets/img`);
     }
 };
