@@ -21,6 +21,26 @@ module.exports = async function(projectName) {
             type: 'input',
             name: 'serverPort',
             message: 'Server Port (default 3000):'
+        },
+        {
+            type: 'input',
+            name: 'projectName',
+            message: 'Project Name:'
+        },
+        {
+            type: 'input',
+            name: 'projectDescription',
+            message: 'Project Description:'
+        },
+        {
+            type: 'input',
+            name: 'version',
+            message: 'Version (default 1.0.0):'
+        },
+        {
+            type: 'input',
+            name: 'author',
+            message: 'Author:'
         }
     //     {
     //         type: 'input',
@@ -45,11 +65,17 @@ module.exports = async function(projectName) {
     ];
 
     const answers = await inquirer.prompt(questions);
+
     if (!answers.serverPort || !answers.serverPort === '') {
         answers.serverPort = 3000;
+    }
+    if (!answers.version || !answers.version === '') {
+        answers.version = '1.0.0';
     }
 
     console.log('\n');
     require('./create_directories')(dir);
     require('./generate_config')(dir, answers.serverPort);
+    require('./generate_package_json')(dir, answers.projectName, answers.version, answers.projectDescription,
+        answers.author);
 };

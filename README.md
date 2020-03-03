@@ -24,10 +24,6 @@ Stay up to date with the latest release and announcements on Twitter:
 ## Quickstart
 
   - Create a new project `blogjs init <project_name>`
-  
-## For Developers
-
-  - npm link
 
 ## Versioning
 

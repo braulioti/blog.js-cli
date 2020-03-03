@@ -7,7 +7,7 @@ module.exports = function(projectDirectory, serverPort) {
 
     fs.writeFile(fileName, dataFile, function(err) {
 
-        console.log(chalk.green(`${projectDirectory}/src/config.ts`));
+        console.log(chalk.green(fileName));
     });
 };
 
