@@ -27,9 +27,6 @@ module.exports = function(projectDirectory, projectName, version, description, a
     dataFile += `  "keywords": [],\n`;
     dataFile += `  "author": "${author}",\n`;
     dataFile += `  "license": "ISC",\n`;
-    dataFile += `  "scripts": {\n`;
-    dataFile += `    "blog": "tsc && cp -rv src/views/ dist/ && node dist/main.js"\n`;
-    dataFile += `  },\n`;
 
     dataFile += `  "dependencies": {\n`;
     dependencies.forEach((dependency, index) => {

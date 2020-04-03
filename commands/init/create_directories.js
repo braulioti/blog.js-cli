@@ -8,13 +8,13 @@ module.exports = function(sourceFolder) {
         fs.mkdirSync(`${sourceFolder}/src/page/404`);
         fs.mkdirSync(`${sourceFolder}/src/page/index`);
         fs.mkdirSync(`${sourceFolder}/src/plugin`);
-        fs.mkdirSync(`${sourceFolder}/src/views`);
-        fs.mkdirSync(`${sourceFolder}/src/views/admin`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/default`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/default/assets`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/default/assets/css`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/default/assets/js`);
-        fs.mkdirSync(`${sourceFolder}/src/views/web/default/assets/img`);
+        fs.mkdirSync(`${sourceFolder}/views`);
+        fs.mkdirSync(`${sourceFolder}/views/admin`);
+        fs.mkdirSync(`${sourceFolder}/views/web`);
+        fs.mkdirSync(`${sourceFolder}/views/web/default`);
+        fs.mkdirSync(`${sourceFolder}/views/web/default/assets`);
+        fs.mkdirSync(`${sourceFolder}/views/web/default/assets/css`);
+        fs.mkdirSync(`${sourceFolder}/views/web/default/assets/js`);
+        fs.mkdirSync(`${sourceFolder}/views/web/default/assets/img`);
     }
 };

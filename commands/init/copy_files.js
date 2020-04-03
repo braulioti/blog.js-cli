@@ -10,11 +10,11 @@ const files = [
     'src/page/index/page.ts',
     'src/plugin/plugin-builder.ts',
     'src/plugin/plugin-content.ts',
-    'src/views/index.ejs',
-    'src/views/web/default/footer.ejs',
-    'src/views/web/default/header.ejs',
-    'src/views/web/default/page.ejs',
-    'src/views/web/default/assets/css/style.css'
+    'views/index.ejs',
+    'views/web/default/footer.ejs',
+    'views/web/default/header.ejs',
+    'views/web/default/page.ejs',
+    'views/web/default/assets/css/style.css'
 ];
 
 module.exports = function(projectDirectory) {
