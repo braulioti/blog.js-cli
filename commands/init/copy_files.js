@@ -1,9 +1,9 @@
 var fs = require('fs');
 
 const files = [
-    'src/.gitignore',
+    'tsconfig.json',
+    '.gitignore',
     'src/main.ts',
-    'src/tsconfig.json',
     'src/page/page-builder.ts',
     'src/page/page-content.ts',
     'src/page/404/page.ts',
