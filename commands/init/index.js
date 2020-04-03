@@ -79,4 +79,5 @@ module.exports = async function(projectName) {
     require('./generate_package_json')(dir, answers.projectName, answers.version, answers.projectDescription,
         answers.author);
     require('./copy_files')(dir);
+    require('./install_npm')(dir);
 };
