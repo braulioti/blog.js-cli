@@ -1,4 +1,7 @@
 var fs = require('fs');
+const path = require('path');
+
+console.log(path.resolve('copy_files.js'));
 
 const files = [
     'tsconfig.json',

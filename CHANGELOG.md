@@ -1,3 +1,6 @@
+## Version 0.2.1
+   - \#12 Fixes BlogJS path issue
+
 ## Version 0.2.0
    
    - \#1 Created a CLI Wizard
