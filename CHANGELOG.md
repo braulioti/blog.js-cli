@@ -1,8 +1,5 @@
 ## Version 0.2.3
    - \#12 Fixed BlogJS path issue
-   
-## Version 0.2.1
-   - \#12 Fixed BlogJS path issue
 
 ## Version 0.2.0
    

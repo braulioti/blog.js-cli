@@ -31,6 +31,6 @@ module.exports = function(projectDirectory) {
     }
 
     files.forEach(fileName => {
-       copy(`/${fileName}_`, `${projectDirectory}/${fileName}`);
+       copy(`${moduleDir}/${fileName}_`, `${projectDirectory}/${fileName}`);
     });
 };
