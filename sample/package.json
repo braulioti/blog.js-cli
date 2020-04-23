@@ -1,14 +1,11 @@
 {
-  "name": "<project_name>",
-  "version": "<project_version>",
-  "description": "<project_description>",
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "Sample Project",
   "main": "main.js",
   "keywords": [],
-  "author": "<author>",
+  "author": "Bráulio Figueiredo",
   "license": "ISC",
-  "scripts": {
-    "blog": "tsc && cp -rv src/views/ dist/ && node dist/main.js"
-  },
   "dependencies": {
     "@types/ejs": "^3.0.1",
     "ejs": "^3.0.1",

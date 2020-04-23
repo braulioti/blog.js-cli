@@ -22,7 +22,7 @@ export class PageBuilder {
 
         const pluginBuilder = new PluginBuilder();
 
-        aux.push(pluginBuilder.build('top_menu', 'menu', {}));
+        // aux.push(pluginBuilder.build('top_menu', 'menu', {}));
 
         return aux;
     }
