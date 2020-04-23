@@ -1,4 +1,4 @@
-# [Blog.js CLI v0.2.0](https://brau.io)
+# [Blog.js CLI v0.2.3](https://brau.io)
 ## Blog.js
 
 [![Twitter: @braulio_info](https://img.shields.io/badge/contact-@braulio_info-blue.svg?style=flat)](https://twitter.com/braulio_info)
@@ -24,7 +24,7 @@ Stay up to date with the latest release and announcements on Twitter:
 ## Quickstart
 
   - Create a new project `blogjs init <project_name>`
-
+    
 ## Versioning
 
 Blog.js CLI will be maintained under the Semantic Versioning guidelines as much as possible.
@@ -47,7 +47,7 @@ You can contribute to the development of this project in the following ways:
   - Reporting on Issues any error or improvement for the project
   - Review the code and ask for changes if it's interesting
   - Translate language files for other languages
-  - Fixing bugs or making code improvements
+  - Fixing bugs or making code improvements (use `npm link`)
   - Making donations on the official website
 
 ## Author

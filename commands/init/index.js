@@ -1,5 +1,5 @@
 module.exports = async function(projectName) {
-    var dir = `${projectName}`;
+    const dir = `${projectName}`;
 
     const chalk = require('chalk');
     const clear = require('clear');

@@ -1,8 +1,6 @@
 var fs = require('fs');
 const path = require('path');
 
-console.log(path.resolve('copy_files.js'));
-
 const files = [
     'tsconfig.json',
     '.gitignore',
@@ -21,6 +19,8 @@ const files = [
 ];
 
 module.exports = function(projectDirectory) {
+    const moduleDir = __dirname.replace(/\/commands\/init/i, '');
+
     function copy(source, dest) {
         const chalk = require('chalk');
 
@@ -31,6 +31,6 @@ module.exports = function(projectDirectory) {
     }
 
     files.forEach(fileName => {
-       copy(`${fileName}_`, `${projectDirectory}/${fileName}`);
+       copy(`/${fileName}_`, `${projectDirectory}/${fileName}`);
     });
 };
