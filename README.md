@@ -1,4 +1,4 @@
-# [Blog.js CLI v0.1.0](https://brau.io)
+# [Blog.js CLI v0.2.0](https://brau.io)
 ## Blog.js
 
 [![Twitter: @braulio_info](https://img.shields.io/badge/contact-@braulio_info-blue.svg?style=flat)](https://twitter.com/braulio_info)
